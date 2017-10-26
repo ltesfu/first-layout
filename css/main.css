@@ -9,6 +9,11 @@ body, h1, h2, ul, ol {
 
 body {
   font-family: "Lato", sans-serif;
-  margin: 20px auto 0 auto;
+  margin: 20px auto 0;
   width: 80%;
+}
+
+li {
+  list-style-type: none;
+  text-decoration: none;
 }
