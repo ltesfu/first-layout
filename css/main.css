@@ -1,5 +1,6 @@
 /*** web fonts ***/
 @import url(https://fonts.googleapis.com/css?family=Lato:400);
+@import url(https://fonts.googleapis.com/css?family=Luckiest+Guy);
 
 /*** basic reset ***/
 body, h1, h2, ul, ol {
@@ -13,8 +14,9 @@ body {
   width: 80%;
 }
 
-h1 {
-
+header h1 {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 2em;
 }
 
 header {
@@ -24,6 +26,10 @@ header {
 
 li {
   list-style-type: none;
+}
+
+nav {
+  margin-top: .7em;
 }
 
 nav ul {
