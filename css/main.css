@@ -13,6 +13,10 @@ body {
   width: 80%;
 }
 
+h1 {
+  font-size: 2em;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -20,6 +24,12 @@ header {
 
 li {
   list-style-type: none;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 20em;
 }
 
 nav a {
