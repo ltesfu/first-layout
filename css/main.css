@@ -8,12 +8,21 @@ body, h1, h2, ul, ol {
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Lato", Arial, sans-serif;
   margin: 20px auto 0;
   width: 80%;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+
+}
+
 li {
   list-style-type: none;
+}
+
+nav a {
   text-decoration: none;
 }
